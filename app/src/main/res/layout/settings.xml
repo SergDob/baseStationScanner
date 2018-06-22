@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/buttonAddMetroStation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить станцию метро"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonAddMetroLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить линию метро"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="76dp" />
+</android.support.constraint.ConstraintLayout>
