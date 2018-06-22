@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="ru.serg.basestationscanner.MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:text="sersh"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="231dp" />
+
     <Spinner
         android:id="@+id/baseStations"
         android:layout_width="0dp"
